@@ -7,5 +7,5 @@ const UserSchema = new Schema({
     email : String, 
     password : String
 })
-const User = mongoose.model('blu',UserSchema);
+const User = mongoose.model('User',UserSchema);
 module.exports = User ;
